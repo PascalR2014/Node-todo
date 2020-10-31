@@ -26,7 +26,7 @@ Pour installer et utiliser ce projet, un simple navigateur et un éditeur de cod
 
 <a href="https://nodejs.org/fr/">Site officiel NodeJs</a>
 
-**Les liens sont en français mais il se peut que les informations ne soit pas à jour, il est recommandé d'avoir de bonnes notions d'anglais pour pouvoir suivre les tutoriels.
+**Les liens sont en français mais il se peut que les informations ne soit pas à jour, il est recommandé d'avoir de bonnes notions d'anglais pour pouvoir suivre les tutoriels.**
 
 Non officiels ( mais intéressant !)
 
