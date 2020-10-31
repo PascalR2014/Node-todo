@@ -8,7 +8,7 @@ Petit projet basé sur NodeJs et le framework ExpressJs plus quelques modules su
 
 Il nous apprends à gérer les bases: views, public, installation et utilisation des modules, interaction entre les fichiers dans un même projet et quelques bases javascript.
 
-<img src="https://github.com/PascalR2014/Node-todo/blob/MyToDoApp.png" alt="visuel du projet ToDoApp"/>
+<img src="https://github.com/PascalR2014/Node-todo/blob/main/MyToDoApp.png" alt="visuel du projet ToDoApp"/>
 
 Il est recommandé d'apprendre les bases de ces technologies avant d'en modifier le code source.
 
