@@ -1,0 +1,36 @@
+* {
+    font-family: "lato", sans-serif;
+    font-weight: bold;
+    background-color: lightgray;
+
+}
+
+body {
+    margin-top: 100px;
+    margin-left: 400px;
+}
+
+#Todo {
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: #3395FF;
+    height: 50px;
+
+}
+
+input[type=text] {
+    width: 100px;
+    background-color: white; 
+    height: 45px;
+}
+
+hr {
+    margin-left: -80px;
+    width: 600px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ma todolist</title>
+		<link href="/style.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet">
+	</head>
+	<body>
+		<h1>To Do List simple</h1>
+		<form action ="/addtask" method="POST">
+
+		<input type="text" name="newtask" placeholder="  Nouvelle tâche">
+
+		<button>Ajouter</button>
+		<br>
+		<hr>
+		<div id="Todo">
+			<h2 >Tâches à faire - Tasks to do</h2>
+
+			<% for( var i = 0; i < task.length; i++){ %>
+			    <li><input type="checkbox" name="check" value="<%= task[i] %>" /> <%= task[i] %> </li>
+			<% } %>
+			<br>
+			<button formaction="/removetask" type="submit" id="top">Tâche accomplie</button>
+			</form>
+			<p>* Cochez la case et appuyer sur le bouton pour valider la tâche accomplie !</p>
+		</div>
+		<hr>
+		<div id="Done">
+			<h2 >Tâches accomplies - Completed tasks</h2>
+
+			 <% for(var i = 0; i < complete.length; i++){ %>
+			    <li><input type="checkbox" checked><%= complete[i] %> </li>
+			<% } %>
+		</div>
+		<br>
+		<p>Todo list app' by Pascal Richet 2020  <a href="https://github.com/PascalR2014">Actually on Github</a></p><p>Thanks to Vanessa Ating !</p>
+	</body>
+</html>
